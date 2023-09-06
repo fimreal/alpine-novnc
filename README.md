@@ -1,6 +1,8 @@
 # alpine-novnc
 alpine-novnc x11 container/docker image.
 
+[![docker_build](https://github.com/fimreal/alpine-novnc/actions/workflows/docker_build.yml/badge.svg)](https://github.com/fimreal/alpine-novnc/actions/workflows/docker_build.yml)
+
 ## base image
 
 ```bash
