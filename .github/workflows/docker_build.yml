@@ -33,6 +33,7 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/alpine-novnc:${{ env.GIT_TAG }}
   chromium:
     needs: base
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
