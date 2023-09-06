@@ -53,7 +53,7 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          file: Dockerfile
+          file: chromium/Dockerfile
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/alpine-novnc:chromium
             ${{ secrets.DOCKERHUB_USERNAME }}/alpine-novnc:chromium-${{ env.GIT_TAG }}
