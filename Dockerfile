@@ -7,8 +7,7 @@ RUN apk add bash fluxbox git supervisor xvfb x11vnc &&\
     ln -s /noVNC/vnc_lite.html /noVNC/index.html
 
 # Setup environment variables
-ENV DEBIAN_FRONTEND=noninteractive \
-    DISPLAY=:0 \
+ENV DISPLAY=:0 \
     DISPLAY_RESOLUTION="1400x760" \
     LC_ALL=C.UTF-8 \
     PORT=8080
